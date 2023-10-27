@@ -98,3 +98,25 @@ I personally like Docker, so it is used to use bazel(In my experience building l
 At this moment, you may have a question if these generated services will work as we expected.
 
 So I emulated real server / client using these services. (in test folder)
+
+```
+cd ..
+cd ..
+cd ..
+cd test
+pip install -r requirements.txt
+python greeter_server.py
+
+(Open another terminal)
+python greeter_client.py
+
+```
+
+
+![](assets/20231027_113232_Screenshot_5.png)
+
+They are working well as we expected.
+
+Server replies back to client successfully.
+
+I hope you enjoyed!
